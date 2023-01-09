@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: white;
+            border-style:  10px solid;
+            border-color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    
+
+<!-- <body> style = "background-color: darkorchid;"> -->
+     <center>
+    <table cellspacing = "20">
+   
+    <form action = "/action.php">
+       <h1>Student Registeration</h1>
+       <tr>
+        <td>First Name:</td>
+        <td><input type = "text" placeholder = "Enter First Name" maxlength="30"/></td>
+       </tr>
+       <tr>
+        <td>Last Name: </td>
+        <td><input type = "text" placeholder = "Enter Last Name" maxlength="30"/></td>
+       </tr> 
+       <tr>
+        <td>Enter parent/gaurdian Name:</td>
+        <td><input type = "text" placeholder = "Enter Name" maxlength="30"/></td>
+       </tr>      
+       <tr>
+        <td>Enrollment No.: </td> 
+        <td><input type = "text" placeholder = "Enter Enrollment" maxlength="30"/></td> 
+       </tr>
+       <tr>
+        <td>DOB</td>
+        <td><input type = "date" placeholder = "Enter date of birth" maxlength = "30"/></td>
+       </tr>
+       <tr>
+        <td>MobileNo:</td>
+        <td><input type = "text" placeholder = "MobileNo" maxlength = "30"/></td>
+       </tr>
+       <tr>
+        <td>Email:</td>
+        <td><input type = "email" placeholder = "xyz@email.com" maxlength = "100"/></td>
+       </tr>
+       <tr>
+        <td>College Name</td>
+        <td><input type = "text" placeholder = "college name " maxlength = "70"/></td>
+       </tr>
+       <tr>
+        <td>College</td>
+        <td><select name="College">
+            <option value = "SDBCT">SDBCT</option>
+            <option value = "SDBCE">SDBCE</option>
+            </select></td>
+       </tr>
+       <tr>
+        <td>Year</td>
+        <td><select name="Year">
+            <option value = "1st Year">1st Year</option>
+            <option value = "2nd Year">2nd Year</option>
+            <option value = "3rd Year">3rd Year</option>
+            <option value = "4th Year">4th Year</option>
+        </select></td>
+       </tr>
+       <tr>
+        <td>Branch:</td>
+       </tr>
+       <tr> 
+         <td>
+            <label for = "CS">
+                <input type = "radio" value="CS" name = "Branch" id = "103">Computer Science
+            </label>
+            <br>
+            <label for = "IT">
+                <input type = "radio" value="IT" name = "Branch" id = "104">IT
+            </label>
+            <br>
+            <label for = "ME">
+                <input type = "radio" value="ME" name = "Branch" id = "105">ME
+            </label>
+            <br>
+            <label for = "EC">
+                <input type = "radio" value="EC" name = "Branch" id = "106">EC
+            </label>
+         </td>        
+       </tr>
+       <tr>
+          <td>Address</td>
+          <td><input type="textarea" placeholder="Enter temporary address" row = "5"></td>
+       </tr>
+       <tr>
+        <td>Address</td>
+        <td><input type="textarea" placeholder="Enter Parmanent address" row = "5"></td>
+     </tr>
+     <tr>
+        <td><input type="submit" value = "submit"></td>
+     </tr>
+    </form>
+    </table>
+</center>
+</body>
+</html>

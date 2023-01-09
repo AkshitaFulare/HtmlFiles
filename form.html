@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action ="/action.php">
+        <input type = "text" placeholder = "Username">
+        <br>
+        <br>
+        <input type = "password" placeholder = "password">
+        <br>
+
+        <!--
+            radio buttons
+        -->
+        <h5>
+            Radio buttons
+        </h5>
+        <p> Select year </p>
+        <label for = "101">
+        <input type = "radio" value="2nd year" name = "sem4" id = "101">2nd year
+        </label>
+        <br>
+        <label for="102">
+        <input type = "radio" value="3rd year" name = "sem4" id = "102">3rd year
+        </label>
+        <br>
+        <p> Select Branches</p>
+        <label for = "CS">
+            <input type = "checkbox" value="CS" name = "Branch" id = "103">CS
+        </label>
+        <br>
+        <label for = "IT">
+            <input type = "checkbox" value="IT" name = "Branch" id = "104">IT
+        </label>
+        <br>
+        <label for = "ME">
+            <input type = "checkbox" value="ME" name = "Branch" id = "105">ME
+        </label>
+        <br>
+        <label for = "EC">
+            <input type = "checkbox" value="EC" name = "Branch" id = "106">EC
+        </label>
+        <br>
+        <p>Select your city</p>
+        <select name="city">
+            <option value = "Delhi">Delhi</option>
+            <option value = "Banglore">Banglore</option>
+            <option value = "Chennai">Chennai</option>
+            <option value = "Surat">Surat</option>
+            <option value = "Indore">Indore</option>
+        </select>
+        <br>
+        <br>
+        <p>Feedback</p>
+        <textarea name = "Why did you choose" placeholder = "provide your view"
+        row="5">
+            provide your view
+        </textarea>
+        <br>
+        <br>
+        <input type="submit" value = "submit">
+
+    </form>
+</body>
+</html>
